@@ -1,0 +1,306 @@
+石が10個までの場合
+
+==== 1 stone(s) ====
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax10(x)
+
+==== 2 stone(s) ====
+ 2 ->  1 | Random(o) took 1 stone(s).
+ 1 ->  0 | MinMax10(x) took 1 stone(s).
+Winner: Random(o)
+
+==== 3 stone(s) ====
+ 3 ->  2 | Random(o) took 1 stone(s).
+ 2 ->  1 | MinMax10(x) took 1 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax10(x)
+
+==== 4 stone(s) ====
+ 4 ->  1 | Random(o) took 3 stone(s).
+ 1 ->  0 | MinMax10(x) took 1 stone(s).
+Winner: Random(o)
+
+==== 5 stone(s) ====
+ 5 ->  4 | Random(o) took 1 stone(s).
+ 4 ->  1 | MinMax10(x) took 3 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax10(x)
+
+==== 6 stone(s) ====
+ 6 ->  4 | Random(o) took 2 stone(s).
+ 4 ->  1 | MinMax10(x) took 3 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax10(x)
+
+==== 7 stone(s) ====
+ 7 ->  5 | Random(o) took 2 stone(s).
+ 5 ->  2 | MinMax10(x) took 3 stone(s).
+ 2 ->  0 | Random(o) took 2 stone(s).
+Winner: MinMax10(x)
+
+==== 8 stone(s) ====
+ 8 ->  5 | Random(o) took 3 stone(s).
+ 5 ->  2 | MinMax10(x) took 3 stone(s).
+ 2 ->  1 | Random(o) took 1 stone(s).
+ 1 ->  0 | MinMax10(x) took 1 stone(s).
+Winner: Random(o)
+
+==== 9 stone(s) ====
+ 9 ->  8 | Random(o) took 1 stone(s).
+ 8 ->  5 | MinMax10(x) took 3 stone(s).
+ 5 ->  4 | Random(o) took 1 stone(s).
+ 4 ->  1 | MinMax10(x) took 3 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax10(x)
+
+==== 10 stone(s) ====
+10 ->  9 | Random(o) took 1 stone(s).
+ 9 ->  6 | MinMax10(x) took 3 stone(s).
+ 6 ->  4 | Random(o) took 2 stone(s).
+ 4 ->  1 | MinMax10(x) took 3 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax10(x)
+
+
+
+-------------------------------------------
+石が20個までの場合
+
+==== 1 stone(s) ====
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 2 stone(s) ====
+ 2 ->  1 | Random(o) took 1 stone(s).
+ 1 ->  0 | MinMax20(x) took 1 stone(s).
+Winner: Random(o)
+
+==== 3 stone(s) ====
+ 3 ->  2 | Random(o) took 1 stone(s).
+ 2 ->  1 | MinMax20(x) took 1 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 4 stone(s) ====
+ 4 ->  2 | Random(o) took 2 stone(s).
+ 2 ->  1 | MinMax20(x) took 1 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 5 stone(s) ====
+ 5 ->  2 | Random(o) took 3 stone(s).
+ 2 ->  1 | MinMax20(x) took 1 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 6 stone(s) ====
+ 6 ->  5 | Random(o) took 1 stone(s).
+ 5 ->  2 | MinMax20(x) took 3 stone(s).
+ 2 ->  1 | Random(o) took 1 stone(s).
+ 1 ->  0 | MinMax20(x) took 1 stone(s).
+Winner: Random(o)
+
+==== 7 stone(s) ====
+ 7 ->  6 | Random(o) took 1 stone(s).
+ 6 ->  5 | MinMax20(x) took 1 stone(s).
+ 5 ->  3 | Random(o) took 2 stone(s).
+ 3 ->  1 | MinMax20(x) took 2 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 8 stone(s) ====
+ 8 ->  6 | Random(o) took 2 stone(s).
+ 6 ->  5 | MinMax20(x) took 1 stone(s).
+ 5 ->  2 | Random(o) took 3 stone(s).
+ 2 ->  1 | MinMax20(x) took 1 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 9 stone(s) ====
+ 9 ->  8 | Random(o) took 1 stone(s).
+ 8 ->  5 | MinMax20(x) took 3 stone(s).
+ 5 ->  3 | Random(o) took 2 stone(s).
+ 3 ->  1 | MinMax20(x) took 2 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 10 stone(s) ====
+10 ->  7 | Random(o) took 3 stone(s).
+ 7 ->  5 | MinMax20(x) took 2 stone(s).
+ 5 ->  4 | Random(o) took 1 stone(s).
+ 4 ->  1 | MinMax20(x) took 3 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 11 stone(s) ====
+11 -> 10 | Random(o) took 1 stone(s).
+10 ->  9 | MinMax20(x) took 1 stone(s).
+ 9 ->  7 | Random(o) took 2 stone(s).
+ 7 ->  5 | MinMax20(x) took 2 stone(s).
+ 5 ->  2 | Random(o) took 3 stone(s).
+ 2 ->  1 | MinMax20(x) took 1 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 12 stone(s) ====
+12 -> 11 | Random(o) took 1 stone(s).
+11 ->  9 | MinMax20(x) took 2 stone(s).
+ 9 ->  8 | Random(o) took 1 stone(s).
+ 8 ->  5 | MinMax20(x) took 3 stone(s).
+ 5 ->  4 | Random(o) took 1 stone(s).
+ 4 ->  1 | MinMax20(x) took 3 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 13 stone(s) ====
+13 -> 10 | Random(o) took 3 stone(s).
+10 ->  9 | MinMax20(x) took 1 stone(s).
+ 9 ->  8 | Random(o) took 1 stone(s).
+ 8 ->  5 | MinMax20(x) took 3 stone(s).
+ 5 ->  3 | Random(o) took 2 stone(s).
+ 3 ->  1 | MinMax20(x) took 2 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 14 stone(s) ====
+14 -> 13 | Random(o) took 1 stone(s).
+13 -> 10 | MinMax20(x) took 3 stone(s).
+10 ->  8 | Random(o) took 2 stone(s).
+ 8 ->  5 | MinMax20(x) took 3 stone(s).
+ 5 ->  2 | Random(o) took 3 stone(s).
+ 2 ->  1 | MinMax20(x) took 1 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 15 stone(s) ====
+15 -> 12 | Random(o) took 3 stone(s).
+12 ->  9 | MinMax20(x) took 3 stone(s).
+ 9 ->  7 | Random(o) took 2 stone(s).
+ 7 ->  5 | MinMax20(x) took 2 stone(s).
+ 5 ->  3 | Random(o) took 2 stone(s).
+ 3 ->  1 | MinMax20(x) took 2 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 16 stone(s) ====
+16 -> 15 | Random(o) took 1 stone(s).
+15 -> 13 | MinMax20(x) took 2 stone(s).
+13 -> 11 | Random(o) took 2 stone(s).
+11 ->  9 | MinMax20(x) took 2 stone(s).
+ 9 ->  7 | Random(o) took 2 stone(s).
+ 7 ->  5 | MinMax20(x) took 2 stone(s).
+ 5 ->  3 | Random(o) took 2 stone(s).
+ 3 ->  1 | MinMax20(x) took 2 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 17 stone(s) ====
+17 -> 14 | Random(o) took 3 stone(s).
+14 -> 13 | MinMax20(x) took 1 stone(s).
+13 -> 12 | Random(o) took 1 stone(s).
+12 ->  9 | MinMax20(x) took 3 stone(s).
+ 9 ->  6 | Random(o) took 3 stone(s).
+ 6 ->  5 | MinMax20(x) took 1 stone(s).
+ 5 ->  3 | Random(o) took 2 stone(s).
+ 3 ->  1 | MinMax20(x) took 2 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 18 stone(s) ====
+18 -> 17 | Random(o) took 1 stone(s).
+17 -> 14 | MinMax20(x) took 3 stone(s).
+14 -> 11 | Random(o) took 3 stone(s).
+11 ->  9 | MinMax20(x) took 2 stone(s).
+ 9 ->  6 | Random(o) took 3 stone(s).
+ 6 ->  5 | MinMax20(x) took 1 stone(s).
+ 5 ->  2 | Random(o) took 3 stone(s).
+ 2 ->  1 | MinMax20(x) took 1 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 19 stone(s) ====
+19 -> 17 | Random(o) took 2 stone(s).
+17 -> 14 | MinMax20(x) took 3 stone(s).
+14 -> 13 | Random(o) took 1 stone(s).
+13 -> 10 | MinMax20(x) took 3 stone(s).
+10 ->  7 | Random(o) took 3 stone(s).
+ 7 ->  5 | MinMax20(x) took 2 stone(s).
+ 5 ->  2 | Random(o) took 3 stone(s).
+ 2 ->  1 | MinMax20(x) took 1 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+==== 20 stone(s) ====
+20 -> 17 | Random(o) took 3 stone(s).
+17 -> 14 | MinMax20(x) took 3 stone(s).
+14 -> 12 | Random(o) took 2 stone(s).
+12 ->  9 | MinMax20(x) took 3 stone(s).
+ 9 ->  8 | Random(o) took 1 stone(s).
+ 8 ->  5 | MinMax20(x) took 3 stone(s).
+ 5 ->  4 | Random(o) took 1 stone(s).
+ 4 ->  1 | MinMax20(x) took 3 stone(s).
+ 1 ->  0 | Random(o) took 1 stone(s).
+Winner: MinMax20(x)
+
+-------------------------------------------
+先行と後攻を逆転した場合
+==== 1 stone(s) ====
+ 1 ->  0 | MinMax10(o) took 1 stone(s).
+Winner: Random(x)
+
+==== 2 stone(s) ====
+ 2 ->  1 | MinMax10(o) took 1 stone(s).
+ 1 ->  0 | Random(x) took 1 stone(s).
+Winner: MinMax10(o)
+
+==== 3 stone(s) ====
+ 3 ->  1 | MinMax10(o) took 2 stone(s).
+ 1 ->  0 | Random(x) took 1 stone(s).
+Winner: MinMax10(o)
+
+==== 4 stone(s) ====
+ 4 ->  1 | MinMax10(o) took 3 stone(s).
+ 1 ->  0 | Random(x) took 1 stone(s).
+Winner: MinMax10(o)
+
+==== 5 stone(s) ====
+ 5 ->  2 | MinMax10(o) took 3 stone(s).
+ 2 ->  0 | Random(x) took 2 stone(s).
+Winner: MinMax10(o)
+
+==== 6 stone(s) ====
+ 6 ->  5 | MinMax10(o) took 1 stone(s).
+ 5 ->  4 | Random(x) took 1 stone(s).
+ 4 ->  1 | MinMax10(o) took 3 stone(s).
+ 1 ->  0 | Random(x) took 1 stone(s).
+Winner: MinMax10(o)
+
+==== 7 stone(s) ====
+ 7 ->  5 | MinMax10(o) took 2 stone(s).
+ 5 ->  4 | Random(x) took 1 stone(s).
+ 4 ->  1 | MinMax10(o) took 3 stone(s).
+ 1 ->  0 | Random(x) took 1 stone(s).
+Winner: MinMax10(o)
+
+==== 8 stone(s) ====
+ 8 ->  5 | MinMax10(o) took 3 stone(s).
+ 5 ->  4 | Random(x) took 1 stone(s).
+ 4 ->  1 | MinMax10(o) took 3 stone(s).
+ 1 ->  0 | Random(x) took 1 stone(s).
+Winner: MinMax10(o)
+
+==== 9 stone(s) ====
+ 9 ->  6 | MinMax10(o) took 3 stone(s).
+ 6 ->  3 | Random(x) took 3 stone(s).
+ 3 ->  1 | MinMax10(o) took 2 stone(s).
+ 1 ->  0 | Random(x) took 1 stone(s).
+Winner: MinMax10(o)
+
+==== 10 stone(s) ====
+10 ->  9 | MinMax10(o) took 1 stone(s).
+ 9 ->  7 | Random(x) took 2 stone(s).
+ 7 ->  5 | MinMax10(o) took 2 stone(s).
+ 5 ->  2 | Random(x) took 3 stone(s).
+ 2 ->  1 | MinMax10(o) took 1 stone(s).
+ 1 ->  0 | Random(x) took 1 stone(s).
+Winner: MinMax10(o)

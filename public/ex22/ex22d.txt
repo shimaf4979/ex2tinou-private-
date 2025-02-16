@@ -1,0 +1,83 @@
+=== Normal vs Move Ordering ===
+Visited nodes: 4891
+ | | 
+-+-+-
+ |o| 
+-+-+-
+ | | 
+o: a3=0, a2=0, a1=0
+x: b3=0, b2=0, b1=0
+---------
+Visited nodes: 1591
+X| | 
+-+-+-
+ |o| 
+-+-+-
+ | | 
+o: a3=0, a2=0, a1=0
+x: b3=0, b2=0, b1=0
+---------
+Visited nodes: 815
+X|o| 
+-+-+-
+ |o| 
+-+-+-
+ | | 
+o: a3=0, a2=0, a1=0
+x: b3=0, b2=0, b1=0
+---------
+Visited nodes: 220
+X|o| 
+-+-+-
+ |o| 
+-+-+-
+ |X| 
+o: a3=0, a2=0, a1=1
+x: b3=0, b2=0, b1=0
+---------
+Visited nodes: 111
+X|o| 
+-+-+-
+o|o| 
+-+-+-
+ |X| 
+o: a3=0, a2=0, a1=1
+x: b3=0, b2=0, b1=0
+---------
+Visited nodes: 31
+X|o| 
+-+-+-
+o|o|X
+-+-+-
+ |X| 
+o: a3=0, a2=0, a1=2
+x: b3=0, b2=0, b1=0
+---------
+Visited nodes: 12
+X|o|o
+-+-+-
+o|o|X
+-+-+-
+ |X| 
+o: a3=0, a2=0, a1=3
+x: b3=0, b2=0, b1=0
+---------
+Visited nodes: 5
+X|o|o
+-+-+-
+o|o|X
+-+-+-
+X|X| 
+o: a3=0, a2=0, a1=4
+x: b3=0, b2=0, b1=1
+---------
+Visited nodes: 2
+X|o|o
+-+-+-
+o|o|X
+-+-+-
+X|X|o
+o: a3=0, a2=0, a1=6
+x: b3=0, b2=0, b1=2
+---------
+winner: draw

@@ -1,0 +1,145 @@
+# 先行→必ずdrawになる
+
+Enter row (0-2) and column (0-2) separated by space:
+1 1
+ | | 
+-+-+-
+ |o| 
+-+-+-
+ | | 
+o: a3=0, a2=0, a1=0
+x: b3=0, b2=0, b1=0
+---------
+X| | 
+-+-+-
+ |o| 
+-+-+-
+ | | 
+o: a3=0, a2=0, a1=0
+x: b3=0, b2=0, b1=0
+---------
+Enter row (0-2) and column (0-2) separated by space:
+3 1
+Invalid move. Try again.
+Enter row (0-2) and column (0-2) separated by space:
+2 0
+X| | 
+-+-+-
+ |o| 
+-+-+-
+o| | 
+o: a3=0, a2=0, a1=0
+x: b3=0, b2=0, b1=0
+---------
+X| |X
+-+-+-
+ |o| 
+-+-+-
+o| | 
+o: a3=0, a2=0, a1=1
+x: b3=0, b2=0, b1=0
+---------
+Enter row (0-2) and column (0-2) separated by space:
+0 1
+X|o|X
+-+-+-
+ |o| 
+-+-+-
+o| | 
+o: a3=0, a2=0, a1=1
+x: b3=0, b2=0, b1=1
+---------
+X|o|X
+-+-+-
+ |o| 
+-+-+-
+o|X| 
+o: a3=0, a2=0, a1=2
+x: b3=0, b2=0, b1=1
+---------
+Enter row (0-2) and column (0-2) separated by space:
+1 2
+X|o|X
+-+-+-
+ |o|o
+-+-+-
+o|X| 
+o: a3=0, a2=0, a1=2
+x: b3=0, b2=0, b1=1
+---------
+X|o|X
+-+-+-
+X|o|o
+-+-+-
+o|X| 
+o: a3=0, a2=0, a1=3
+x: b3=0, b2=0, b1=2
+---------
+Enter row (0-2) and column (0-2) separated by space:
+2 2
+X|o|X
+-+-+-
+X|o|o
+-+-+-
+o|X|o
+o: a3=0, a2=0, a1=6
+x: b3=0, b2=0, b1=2
+---------
+winner: draw
+
+# 負ける場合
+Enter row (0-2) and column (0-2) separated by space:
+0 0
+o| | 
+-+-+-
+ | | 
+-+-+-
+ | | 
+o: a3=0, a2=0, a1=0
+x: b3=0, b2=0, b1=0
+---------
+o| | 
+-+-+-
+ | |X
+-+-+-
+ | | 
+o: a3=0, a2=0, a1=0
+x: b3=0, b2=0, b1=0
+---------
+Enter row (0-2) and column (0-2) separated by space:
+2 0
+o| | 
+-+-+-
+ | |X
+-+-+-
+o| | 
+o: a3=0, a2=0, a1=0
+x: b3=0, b2=0, b1=0
+---------
+o| | 
+-+-+-
+X| |X
+-+-+-
+o| | 
+o: a3=0, a2=0, a1=1
+x: b3=0, b2=0, b1=0
+---------
+Enter row (0-2) and column (0-2) separated by space:
+2 2
+o| | 
+-+-+-
+X| |X
+-+-+-
+o| |o
+o: a3=0, a2=0, a1=1
+x: b3=0, b2=0, b1=0
+---------
+o| | 
+-+-+-
+X|X|X
+-+-+-
+o| |o
+o: a3=0, a2=0, a1=2
+x: b3=1, b2=0, b1=0
+---------
+winner: AlphaBeta2
